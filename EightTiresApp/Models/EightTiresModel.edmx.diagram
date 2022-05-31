@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="7f42434a29ca42338cb4fc378fa0e63f" Name="Diagram1">
+        <EntityTypeShape EntityType="EightTiresDBModel.Agent" Width="1.5" PointX="3" PointY="13.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="EightTiresDBModel.AgentPriorityHistory" Width="1.5" PointX="5.25" PointY="17" IsExpanded="true" />
+        <EntityTypeShape EntityType="EightTiresDBModel.AgentType" Width="1.5" PointX="0.75" PointY="14.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="EightTiresDBModel.Material" Width="1.5" PointX="3" PointY="8" IsExpanded="true" />
+        <EntityTypeShape EntityType="EightTiresDBModel.MaterialCountHistory" Width="1.5" PointX="5.25" PointY="10.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="EightTiresDBModel.MaterialType" Width="1.5" PointX="0.75" PointY="9" IsExpanded="true" />
+        <EntityTypeShape EntityType="EightTiresDBModel.Product" Width="1.5" PointX="3" PointY="3.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="EightTiresDBModel.ProductCostHistory" Width="1.5" PointX="5.25" PointY="4.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="EightTiresDBModel.ProductMaterial" Width="1.5" PointX="5.25" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="EightTiresDBModel.ProductSale" Width="1.5" PointX="5.25" PointY="7.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="EightTiresDBModel.ProductType" Width="1.5" PointX="0.75" PointY="4.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="EightTiresDBModel.Shop" Width="1.5" PointX="5.25" PointY="19.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EightTiresDBModel.Supplier" Width="1.5" PointX="5.25" PointY="13.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="EightTiresDBModel.sysdiagrams" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <AssociationConnector Association="EightTiresDBModel.FK_Agent_AgentType" ManuallyRouted="false" />
+        <AssociationConnector Association="EightTiresDBModel.FK_AgentPriorityHistory_Agent" ManuallyRouted="false" />
+        <AssociationConnector Association="EightTiresDBModel.FK_ProductSale_Agent" ManuallyRouted="false" />
+        <AssociationConnector Association="EightTiresDBModel.FK_Shop_Agent" ManuallyRouted="false" />
+        <AssociationConnector Association="EightTiresDBModel.FK_Material_MaterialType" ManuallyRouted="false" />
+        <AssociationConnector Association="EightTiresDBModel.FK_MaterialCountHistory_Material" ManuallyRouted="false" />
+        <AssociationConnector Association="EightTiresDBModel.FK_ProductMaterial_Material" ManuallyRouted="false" />
+        <AssociationConnector Association="EightTiresDBModel.FK_Product_ProductType" ManuallyRouted="false" />
+        <AssociationConnector Association="EightTiresDBModel.FK_ProductCostHistory_Product" ManuallyRouted="false" />
+        <AssociationConnector Association="EightTiresDBModel.FK_ProductMaterial_Product" ManuallyRouted="false" />
+        <AssociationConnector Association="EightTiresDBModel.FK_ProductSale_Product" ManuallyRouted="false" />
+        <AssociationConnector Association="EightTiresDBModel.MaterialSupplier" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
